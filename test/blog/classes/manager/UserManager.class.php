@@ -1,4 +1,4 @@
 <?php
     interface UserManager {
-        public function authenticate() :User;
+        public function authenticate() :?User;
     }
