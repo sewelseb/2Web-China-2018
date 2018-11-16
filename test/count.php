@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Count</H1>
+    <?php require('mesnu.php'); ?>
     <?php
         // echo __DIR__;
         $directory = opendir(__DIR__);
