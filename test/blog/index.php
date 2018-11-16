@@ -1,12 +1,9 @@
 <?php
     require_once('./classes/Post.class.php');
     require_once('./classes/User.class.php');
+    require_once('./classes/manager/SimplePostManager.class.php');
 
-    $myPost = new Post();
-    $myUser = new User();
-
-    var_dump($myPost);
-    var_dump($myUser);
+    $postManager = new SimplePostManager();
 ?>
 <!DOCTYPE html>
 <html lang="en">
